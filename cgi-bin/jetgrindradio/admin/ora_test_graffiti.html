@@ -1,0 +1,91 @@
+<html>
+
+<!-- Mirrored from jetgrindradio.dreampipe.net/cgi-bin/jetgrindradio/admin/ora_test_graffiti.cgi by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Apr 2022 15:53:40 GMT -->
+<head>
+<title>Result</title>
+</head>
+Create New tables: ora_user AND ora_graffiti<br>
+Error: Creating User Table 1064 .... You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER, SM NUMBER, BM NUMBER, BR NUMBER, DateC INT, DateM INT )' at line 1<br>Error: Creating Graffiti Table 1064 .... You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER, UserID CHAR(22), ImgSize CHAR(1), Title VARCHAR(8), Descriptor VARCHAR(1' at line 1<br><HR><BR>
+
+Fill User Table: ora_user<br><br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_user' doesn't exist
+INSERT INTO ora_user ( UniqKey, Email, Name, City, State, Country, SE, Admin, GM, SM, BM, BR, DateC, DateM ) 
+  VALUES ( '0000000000000000000010', 'AV@email.com', 'Alex', 'SF', 'CA', 'US', 'Y', 'Y', '22', '333', '44', '5', 1650038004, 1650038004 )
+<br>Insert Row1 into ora_user  AND get UniqKey: <br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_user' doesn't exist
+INSERT INTO ora_user ( UniqKey, Email, Name, City, State, Country, SE, Admin, GM, SM, BM, BR, DateC, DateM ) 
+  VALUES ( '0000000000000000000020', 'GN@email.com', 'Guennadi', 'Mountain View', 'CA', 'US', 'Y', 'N', '22', '333', '44', '5', 1650038004, 1650038004 )
+<br>Insert Row2 into ora_user  AND get UniqKey: <br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_user' doesn't exist
+INSERT INTO ora_user ( UniqKey, Email, Name, City, State, Country, SE, Admin, GM, SM, BM, BR, DateC, DateM ) 
+  VALUES ( '0000000000000000000030', 'TR@email.com', 'Tom', 'SF', 'CA', 'US', 'Y', 'Y', '22', '333', '44', '5', 1650038004, 1650038004 )
+<br>Insert Row2 into ora_user  AND get UniqKey: <br>
+<HR><BR>
+
+Fill Graffiti Table: ora_graffiti<br><br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row1 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row1.1 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row1.2 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row2 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row2.1 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row2.2 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row3 into ora_graffiti<br>
+Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Insert Row3.1 into ora_graffiti<br>
+<HR><BR>
+
+Currval Error: 1109 .... Unknown table 'gwgenius' in field list<br>Current value = DBI::st=HASH(0x2679520)<BR>Nextval Error: 1109 .... Unknown table 'gwgenius' in field list<br>Next value = DBI::st=HASH(0x2679508)<BR><HR><BR>
+
+Show all Rows from ora_graffiti -- BINARY PARTs ARE SAVED AS FILEs --- Long.jpg --- INTO WORKING DIRECTORY<br>
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br>Can't open output file: /web/jetgrindradio.web/tmp/Long.jpg<br>
+<img src="../../../tmp/Long.html">
+
+<HR><BR>
+
+<BR>
+
+Show Row FROM: ora_graffiti BY UniqKey: 2<br><br>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row for SIZE = 2, Pending = 'Y', FOR current Date and Time - 7 secs<BR><BR>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row FROM: ora_graffiti BY Size: 2 AND Pending='Y' ORDERED BY Title(ascending) for last 60 secs<br><br>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row FROM: ora_graffiti BY Size: 2 AND Pending='Y' ORDERED BY Rank(ascending) for last 60 secs<br><br>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row FROM: ora_graffiti BY Size: 1 AND Pending='Y' ORDERED BY DLCount(descending) for last 30 secs<BR><BR>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row FROM: ora_graffiti BY Rank: BETWEEN 1.0 AND 3.9 AND Size=2 AND Pending='Y' ORDERED BY Title(descending) for last 20 secs<BR><BR>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row FROM: ora_graffiti BY User:  AND Size: 0 AND Pending='Y' AND ORDERED BY DateC(descending) for last 40 secs<BR><BR>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Show Row FROM: ora_graffiti BY Title: 'PIE' AND Size: 0 AND Pending='Y' AND ORDERED BY Title(descending) for last 60 secs<BR><BR>
+
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><HR><BR>
+
+Delete UniqKey 5 Row FROM: ora_graffiti and Show All Rows<br><br>
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><HR><BR>
+
+Modify UniqKey=1 Row FROM: ora_graffiti and Show All Rows<br><br>
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><BR>
+
+Modify Counts for UniqKey=4 Row FROM: ora_graffiti and Show All Rows<br><br>
+Select Error: 1146 .... Table 'danmin02_jetgrindradio.ora_graffiti' doesn't exist<br><hr><br>
+Delete TableS: ora_user AND ora_graffiti<br>
+Error: 1051 .... Unknown table 'danmin02_jetgrindradio.ora_user'<br>Error: 1051 .... Unknown table 'danmin02_jetgrindradio.ora_graffiti'<br>Finish<br>
+</body>
+
+<!-- Mirrored from jetgrindradio.dreampipe.net/cgi-bin/jetgrindradio/admin/ora_test_graffiti.cgi by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Apr 2022 15:53:41 GMT -->
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<!-- Mirrored from jetgrindradio.dreampipe.net/cgi-bin/jetgrindradio/admin/showhtml.cgi?page=admin_wrank.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Apr 2022 15:53:40 GMT -->
+<head>
+	<title>Jet Grind Radio - Administration</title>
+<meta name=x-uirequest content=nohscroll>
+</head>
+
+<body bgcolor=#E6CE00 x-marginleft=0 TEXT="#660000" LINK="#B96800" VLINK="#B96800" ALINK="#B96800" marginheight=0 marginwidth=0 topmargin=0 leftmargin=0>
+
+
+<center>
+
+<TABLE WIDTH="550" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<tr>
+		<TD valign=top width=550><img src="../../../images/title_admin.gif" width=550 height=46 border=0 alt=""></td>
+	</tr>
+</table>
+<TABLE WIDTH="550" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<tr>
+		<TD width=7 valign=top><img src="../../../images/clear.gif" width=7 height=1 border=0 alt=""></td>
+		<TD width=368 valign=top>
+
+
+<b>WORLD RANKING</b><BR>
+Used to start, stop, and continue World Ranking Contests.  Also used to credit a prize to a user.<p>
+
+<h3>Change a contest</h3>
+<form  action="http://jetgrindradio.dreampipe.net/cgi-bin/jetgrindradio/admin/wrank.cgi">
+<table cellspacing="0" cellpadding="5" border="0" bgcolor="#CCCCCC">
+<TR><TD colspan="2">
+<SELECT NAME="type">
+<OPTION VALUE="0" selected>Start the Contest
+<OPTION VALUE="1">Stop Contest and send winner list
+<OPTION VALUE="2">Show Winners and continue ranking
+<OPTION VALUE="3">Delete World Ranking Contest
+</SELECT>
+</TD></TR>
+<TR>
+<TD ALIGN="left" VALIGN="top" width="280">
+Select a Stage: <br><SELECT NAME="STAGE">
+
+<OPTION VALUE="0" SELECTED>SHIBUYA-CHO
+<OPTION VALUE="1">KOGANE-CHO
+<OPTION VALUE="2">BENTEN-CHO
+<OPTION VALUE="3">BANTAM STREET
+<OPTION VALUE="4">GRIND SQUARE
+</SELECT>
+</TD></TR>
+<TR><TD colspan="2">
+Select a Mode:<BR><SELECT NAME="MODE">
+<OPTION VALUE="0" CHECKED>Story Level 1
+<OPTION VALUE="10" CHECKED>Story Level 2
+<OPTION VALUE="20" CHECKED>Story Level 3
+<OPTION VALUE="30" CHECKED>Story Level 4
+<OPTION VALUE="40" CHECKED>Story Level 5
+<OPTION VALUE="1">Jet Crush
+<OPTION VALUE="2">Jet Technique
+<OPTION VALUE="3">Jet Graffiti
+</SELECT>
+</TD></TR>
+<TR><TD colspan="2">
+E-mail address to send winner list (Needed if stopping a contest):<br><INPUT TYPE="text" NAME="mailid" VALUE="aj@sega.com" SIZE=20>
+</TD></TR>
+</TABLE>
+<BR>
+<input type="hidden" name="command" value="contest">
+<input type=submit value=" CHANGE CONTEST ">
+</form>
+<p>
+<hr>
+
+<h3>Award a user a medal</h3>
+<form  action="http://jetgrindradio.dreampipe.net/cgi-bin/jetgrindradio/admin/wrank.cgi">
+<table cellspacing="0" cellpadding="5" border="0" bgcolor="#CCCCCC">
+<TR><TD>E-mail address of user to modify:<br><INPUT TYPE="text" NAME="mailid" VALUE="" SIZE=20>
+</td></tr>
+<tr><td>Award to give to user:
+<SELECT NAME="medal">
+<OPTION VALUE="-1">Display Current Awards
+<OPTION VALUE="0" selected>Gold Medal
+<OPTION VALUE="1">Silver Medal
+<OPTION VALUE="2">Bronze Medal
+<OPTION VALUE="3">Blue Ribbon
+<OPTION VALUE="4">Clear All Medals
+</SELECT>
+</TD></TR>
+</TABLE>
+<BR>
+<input type="hidden" name="command" value="update">
+<input type=submit value=" UPDATE MEDAL ">
+</form>
+<p>
+
+
+		<a href="showhtml9907.html?page=admin.html"><img src="../../../images/button_back.gif" width=200 height=30 border=1 alt="" align=right></a>
+		</td>
+		<TD width=175 valign=top><img src="../../../images/graphic_contest.gif" width=175 height=400 border=0 alt=""></td>
+	</tr>
+</table>
+
+</center>
+</body>
+
+
+<!-- Mirrored from jetgrindradio.dreampipe.net/cgi-bin/jetgrindradio/admin/showhtml.cgi?page=admin_wrank.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Apr 2022 15:53:40 GMT -->
+</html>
